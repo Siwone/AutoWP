@@ -1,0 +1,31 @@
+# 签名密钥（绝不能提交，否则任何人都能用你的密钥签名冒充更新）
+*.jks
+*.keystore
+release.jks
+
+# 编译中间产物
+build/
+gen/
+obj/
+
+# 历史 APK 与签名校验文件（只保留最新版 AutoWP-v2.5.apk）
+AutoWallpaper-v*.apk
+AutoWP-v1.*.apk
+AutoWP-v2.[0-4].apk
+*.idsig
+
+# 调试与临时文件
+*.png.bak
+before_ui.png
+v25_screen.png
+icon_options.png
+ic_launcher_v2.png
+p.xml
+UI*.xml
+*.log
+
+# 测试壁纸（构建不需要）
+test_wallpapers/
+
+# 本地构建工具链（体积大，不入库）
+.toolchain/

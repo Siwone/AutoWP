@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoWP</string>
+    <string name="notif_channel">壁纸服务</string>
+</resources>
